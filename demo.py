@@ -10,7 +10,7 @@ def binarySearch (arr,l,r,x):
     else:
         return -1
 arr = []
-arr = input().split(',')
+arr = input().split()
 print(arr)
 x = int(input())
 if binarySearch(arr, 0, len(arr)-1, x) != -1:
